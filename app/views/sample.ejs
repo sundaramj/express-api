@@ -1,0 +1,5 @@
+<h2>Variable</h2>
+<p><%= campground.name %></p>
+<% campground.comments.forEach(function(comment){ %>
+    <p><%= comment.author %> - <%= comment.text %></p>
+<% })%>

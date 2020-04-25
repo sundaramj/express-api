@@ -11,11 +11,11 @@ path : app/config/db.js change your setting
 ## Module
 Created 3 modules
 * Products
- - Static api no database connection(used static json data from app/helpers/helpers.js)
+    * Static api no database connection(used static json data from app/helpers/helpers.js)
 * Tutorials
- - Static api no database connection(used static json data from app/helpers/helpers.js)
+    * Static api no database connection(used static json data from app/helpers/helpers.js)
 * Employee
- - Connected with database using Mongoose(Mongo DB)
+    * Connected with database using Mongoose(Mongo DB)
 
 ## Points
 1. I have used CORS, So it will not get blocked whoever is using our api

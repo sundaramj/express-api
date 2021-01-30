@@ -2,8 +2,8 @@
 Node js CRUD api using expresss Js with Mongo DB
 
 ## Install Package (run below command on command line)
-npm i express mongoose cors body-parser http-errors ejs
-before that use use npm init to create package.json
+1. npm init(this is used to create package.json)
+2. npm i express mongoose cors body-parser http-errors ejs
 
 ## configure mongo db database configuration
 path : app/config/db.js change your setting
